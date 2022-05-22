@@ -22,6 +22,10 @@ body {
   color: #ffffff;
 }
 
+.current-menu {
+  color: var(--accent-color);
+}
+
 .studio {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -30,7 +34,7 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
 
-  color: #212121;
+  /* color: #212121; */
 }
 .logo {
   font-family: var(--secondary-font);
@@ -79,6 +83,9 @@ body {
   color: var(--accent-color);
 }
 /* =================== HERO ================== */
+.hero-color {
+  background: #2f303a;
+}
 .main-title {
   font-weight: 900;
   font-size: 44px;
@@ -87,8 +94,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 .btn {
   font-weight: 700;
@@ -104,6 +110,10 @@ body {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.btn:hover,
+.btn:focus {
+  background: #188ce8;
 }
 
 /* =================== WHAT WE DO ================== */
@@ -135,13 +145,16 @@ body {
   color: #212121;
 }
 /* ============= OUR TEAM ============================= */
+.team-color {
+  background: #f5f4fa;
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height 
-  text-align: center;
-  letter-spacing: 0.03em; */
+  /* identical to box height */
+  /* text-align: center; */
+  letter-spacing: 0.03em;
 
   color: #212121;
 }
@@ -149,21 +162,23 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height 
-  text-align: center;
-  letter-spacing: 0.03em; */
+  /* identical to box height */
+  /* text-align: center; */
+  letter-spacing: 0.03em;
 
   color: #757575;
 }
 /* ============= FOOTER ============================= */
+.footer-color {
+  background: #2f303a;
+}
 .address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 .info-footer {
   font-weight: 400;
@@ -171,8 +186,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 /* ================ PORTFOLIO =======================*/
 .filter-buttom {
